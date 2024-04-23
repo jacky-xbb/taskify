@@ -1,0 +1,4 @@
+<%= form_with model: Task.new  do |form| %>
+  <%= form.text_field :description, class: "input" %>
+  <%= form.submit "Add Task", class: "ml-2 btn" %>
+<% end %>
